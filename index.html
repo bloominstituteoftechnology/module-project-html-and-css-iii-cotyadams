@@ -62,7 +62,17 @@
     /* 👉 Task 3 - [HINT] the flex direction can be reversed */
 
     /* 👉 Task 4 - [HINT] the flex items need a new order */
-
+    #flexContainer4 {
+      display: flex;
+      justify-content: space-around;
+      align-items: flex-end;
+    }
+    #flexContainer4 .flexItem:nth-child(1) {
+      order: 2
+    }
+    #flexContainer4 .flexItem:nth-child(2) {
+      order: 3
+    }
     /* 👉 Task 5 - [HINT] research align-self */
 
     /* 👉 Task 6 - [HINT] flex items can be flex containers */
@@ -81,14 +91,7 @@
     /* ❗ 👉 WORK ABOVE THIS LINE! */
     /* ❗ 👉 WORK ABOVE THIS LINE! */
     /* ❗ 👉 WORK ABOVE THIS LINE! */
-    div {
-      display: flex;
-      flex-direction: column-reverse;
-      justify-content: flex-end;
-      align-items: flex-end;
-
-      
-    }
+    
   </style>
 </head>
 
